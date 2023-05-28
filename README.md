@@ -1,4 +1,3 @@
-[//]: # (# Insta_Clone)
+Fitness related mobile application with Trend Setting Features and Disease prediction
 
-[//]: # ()
-[//]: # (This is the clone of most populat social site Instagram using Firebase.)
+[//]: # (This is the clone of most popular Fitness based app using Firebase.)

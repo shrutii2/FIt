@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Disease_prediction"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/purple_700"
+        android:textAlignment="textEnd"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:title="FitExpert"
+        app:titleTextColor="#FFF"
+        android:gravity="end" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:text="Disease Prediction"
+                android:textColor="@color/purple_700"
+                android:textSize="30.0dp"
+                android:textAlignment="center"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Please enter your symptom value given here:\n\n 0) None \n\n1) Itching\n\n 2) Lethargy/Muscle_weakness/Hip_joint/palpitation/Blackhead/Scurring/Red sore around nose/Small dents in nails\n\n 3) Skin rash/Acidity/Weight gain/Weight loss/Mood swings/Sweating/Headache\n\n 4) Skin eruptions/Continuous sneezing/Ulcers/Fatigue/Irregular sugar level/Breathlessness/Dehydration/Constipation/Yellow urine/Cramps/Obesity\n\n 5)Shivering/Stomach pain/Vomiting/Irregular sugar level/Mild fever\n\n 6)Burning Micturition/Patches in throat//Acute liver failure/Malaise/Irritation in anus\n\n 7)High fever/Swelling of stomach/Chest pain/Weakness in limbs/Coma"
+                android:textSize="20dp"
+                android:textColor="@color/colorBlack"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Symptom"
+                android:id="@+id/symptom1"
+                android:layout_marginTop="20dp"
+                tools:ignore="TouchTargetSizeCheck"
+                >
+
+            </EditText>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Symptom"
+                android:id="@+id/symptom2"
+                android:layout_marginTop="20dp"
+                tools:ignore="TouchTargetSizeCheck"
+                ></EditText>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Symptom"
+                android:id="@+id/symptom3"
+                android:layout_marginTop="20dp"
+                tools:ignore="TouchTargetSizeCheck"
+                ></EditText>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Symptom"
+                android:id="@+id/symptom4"
+                android:layout_marginTop="20dp"
+                tools:ignore="TouchTargetSizeCheck"
+                ></EditText>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Symptom"
+                android:id="@+id/symptom5"
+                android:layout_marginTop="20dp"
+                tools:ignore="TouchTargetSizeCheck"
+                ></EditText>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Symptom"
+                android:id="@+id/symptom6"
+                android:layout_marginTop="20dp"
+                tools:ignore="TouchTargetSizeCheck"
+                ></EditText>
+
+            <Button
+                android:id="@+id/predict"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_bg"
+                android:text="Predict"
+                android:textColor="@android:color/white"
+                android:textSize="28sp"
+                android:layout_marginLeft="08dp"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="50dp"
+                android:textAlignment="center"
+                android:layout_marginTop="20dp"
+                android:id="@+id/result"
+                ></TextView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

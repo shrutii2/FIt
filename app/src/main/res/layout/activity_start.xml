@@ -9,10 +9,16 @@
     tools:context=".StartActivity"
     android:padding="12dp">
 
-    <ImageView
+    <!--    <ImageView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="50dp"-->
+    <!--        android:src="@drawable/logo"/>-->
+    <TextView
         android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:src="@drawable/logo"/>
+        android:layout_height="wrap_content"
+        android:id="@+id/text"
+        android:text="FitExpert"
+        android:textSize="50dp"/>
 
     <Button
         android:layout_width="match_parent"

@@ -9,10 +9,10 @@
     tools:context=".LoginActivity"
     android:padding="12dp">
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:src="@drawable/logo"/>
+<!--    <ImageView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:src="@drawable/logo"/>-->
 
     <EditText
         android:layout_width="match_parent"

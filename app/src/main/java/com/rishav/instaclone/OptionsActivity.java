@@ -13,7 +13,8 @@ import com.google.firebase.auth.FirebaseAuth;
 public class OptionsActivity extends AppCompatActivity {
 
     private TextView logout;
-    private TextView settings;
+    private TextView diseaseprediction;
+    private TextView subscription;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +22,8 @@ public class OptionsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_options);
 
         logout = findViewById(R.id.logout);
-        settings = findViewById(R.id.settings);
+        diseaseprediction = findViewById(R.id.disease_prediction);
+        subscription=findViewById(R.id.subcription_plan);
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -30,6 +32,15 @@ public class OptionsActivity extends AppCompatActivity {
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                finish();
+            }
+        });
+
+        diseaseprediction.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(OptionsActivity.this,Disease_prediction.class);
+                startActivity(intent);
                 finish();
             }
         });
@@ -43,5 +54,14 @@ public class OptionsActivity extends AppCompatActivity {
             }
         });
 
+        subscription.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(OptionsActivity.this, subscriptionplans.class);
+                startActivity(intent);
+                finish();
+            }
+        });
     }
 }

@@ -1,0 +1,185 @@
+[33mcommit 45f2c9602e3df8145bca59d47c845fe19899bfb6[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Shruti Karn <karnshruti05@gmail.com>
+Date:   Sun May 28 17:37:54 2023 +0530
+
+    second commit
+
+[33mcommit 9f706fac2976a0df3435d3a5905d267b0a90100b[m
+Author: Shruti Karn <karnshruti05@gmail.com>
+Date:   Fri Apr 21 14:55:38 2023 +0530
+
+    updated plans
+
+[33mcommit 87716ab17bd7aedb89371432e837ccfbb463f430[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Rishav Kumar <rishavk1102@gmail.com>
+Date:   Thu Aug 26 12:32:59 2021 +0530
+
+    Removing Google-Services.json
+
+[33mcommit 4dcf8f5a6c08ad81a195f40e96ba7ff30920b580[m
+Author: rishavk1102 <rishavk1102@gmail.com>
+Date:   Thu Feb 6 16:41:32 2020 +0530
+
+    Advanced search for tags and users!
+
+[33mcommit ea94732cabff078d7932ecba795fba4a101a11c3[m
+Author: rishavk1102 <rishavk1102@gmail.com>
+Date:   Thu Feb 6 12:17:47 2020 +0530
+
+    Unique username to every person!
+
+[33mcommit f14a12131e029f5d0d16cb8fbd5bc448cb1321df[m
+Merge: 1241c79 8fc3788
+Author: rishavk1102 <rishavk1102@gmail.com>
+Date:   Wed Feb 5 21:13:03 2020 +0530
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit 1241c791056d1a8524ca437420150a0ff9963545[m
+Author: rishavk1102 <rishavk1102@gmail.com>
+Date:   Wed Feb 5 21:12:44 2020 +0530
+
+    Added Tags functionality to project.
+
+[33mcommit 8fc37880d672462a8a172f98428f603b53de71d0[m
+Author: Rishav Kumar <rishavk1102@gmail.com>
+Date:   Sat Jan 25 08:25:17 2020 +0530
+
+    Create README.md
+
+[33mcommit 18add4c440bfde326961d7b8a2941a1bac006ac7[m
+Author: Rishav <rishavk1102@gmail.com>
+Date:   Thu Dec 5 16:39:04 2019 +0530
+
+    Delete Post and Delete Comments
+
+[33mcommit cc1a74e088cfac065de07daafe26504ed0a539fd[m
+Author: Rishav <rishavk1102@gmail.com>
+Date:   Wed Dec 4 20:32:07 2019 +0530
+
+    Story Views and Delete Story
+
+[33mcommit 2c1dbf02f2fa2ea6213bec154794c5b02e0d3458[m
+Author: Rishav <rishavk1102@gmail.com>
+Date:   Tue Dec 3 23:01:11 2019 +0530
+
+    Viewing Story
+
+[33mcommit b1da065644b871893b6b4938d9d95f961e3ab640[m
+Author: Rishav <rishavk1102@gmail.com>
+Date:   Tue Dec 3 17:39:18 2019 +0530
+
+    Add Story
+
+[33mcommit deece50d808d9b097052230add8a381b3da2ffd2[m
+Author: Rishav <rishavk1102@gmail.com>
+Date:   Mon Dec 2 21:49:27 2019 +0530
+
+    View Stories
+
+[33mcommit ea179860a3e0c6a03e822a1737d5fbb9c6dd967d[m
+Author: Rishav <rishavk1102@gmail.com>
+Date:   Mon Dec 2 15:54:56 2019 +0530
+
+    Loading Posts and SignOut options.
+
+[33mcommit a068d58b89d265411b15e4b85c0321dcdbd8529d[m
+Author: Rishav <rishavk1102@gmail.com>
+Date:   Mon Dec 2 14:58:39 2019 +0530
+
+    List of followers, following and likes.
+
+[33mcommit 1634f94e413fd17852f45aa80e1ac37e7dda03fb[m
+Author: Rishav <rishavk1102@gmail.com>
+Date:   Mon Dec 2 13:57:32 2019 +0530
+
+    Notification Fragment backend and UI
+
+[33mcommit 20b00745e302eed341c84e1e1bffea65af819b93[m
+Author: Rishav <rishavk1102@gmail.com>
+Date:   Sat Nov 30 21:19:14 2019 +0530
+
+    Edit Profile feature added
+
+[33mcommit 1c3688dbe80d7e117d37dbdc82ef8f88ac6978ac[m
+Author: Rishav <rishavk1102@gmail.com>
+Date:   Sat Nov 30 15:16:10 2019 +0530
+
+    Post Details
+
+[33mcommit 6cce6185be6d964b7a498a98b472faae3cb06d97[m
+Author: Rishav <rishavk1102@gmail.com>
+Date:   Fri Nov 29 22:23:27 2019 +0530
+
+    Save and view posta
+
+[33mcommit 7477d52580d73f0827188e78550cb59f28ecdec3[m
+Author: Rishav <rishavk1102@gmail.com>
+Date:   Fri Nov 29 21:45:10 2019 +0530
+
+    Viewing posts in User Profile
+
+[33mcommit c1e2d60b81823c0e4ce555196ce86a484f1b57b4[m
+Author: Rishav <rishavk1102@gmail.com>
+Date:   Wed Nov 27 22:45:13 2019 +0530
+
+    User Profile UI and Backend
+
+[33mcommit 364c8014ccae75ad1ca09f0842708c82da0b20d7[m
+Author: Rishav <rishavk1102@gmail.com>
+Date:   Tue Nov 26 22:09:47 2019 +0530
+
+    Show Comments
+
+[33mcommit 9a674cc3779805426e8d5aba51d47cadf8af0004[m
+Author: Rishav <rishavk1102@gmail.com>
+Date:   Tue Nov 26 21:19:26 2019 +0530
+
+    Send Comments
+
+[33mcommit 5430ed94de8458e0d0e3d90d031fe5fdb88907c0[m
+Author: Rishav <rishavk1102@gmail.com>
+Date:   Tue Nov 26 20:12:28 2019 +0530
+
+    Like posts feature
+
+[33mcommit 17e7750b38718d856b513df24c2b9b105c4bc003[m
+Author: Rishav <rishavk1102@gmail.com>
+Date:   Sun Nov 24 16:49:32 2019 +0530
+
+    Home Screen Backend and Server Code
+
+[33mcommit d0de85372144b5ae2adf93a06cce2b5654bdc958[m
+Author: Rishav <rishavk1102@gmail.com>
+Date:   Sun Nov 24 16:03:54 2019 +0530
+
+    Home Layout UI
+
+[33mcommit 37c7d7f8ef4871ec93c9f156b6942cfd09cd58ee[m
+Author: Rishav <rishavk1102@gmail.com>
+Date:   Sun Nov 24 15:28:34 2019 +0530
+
+    Post image feature
+
+[33mcommit 1a029a663b7337ed1645d6f5df4081da71ff22af[m
+Author: Rishav <rishavk1102@gmail.com>
+Date:   Sun Nov 24 12:53:41 2019 +0530
+
+    1. Search Feature
+    2. Follow Feature
+    3. Unfollow Feature
+
+[33mcommit 4f46887542efdc650fde36fad6788d3cf692a9a1[m
+Author: Rishav <rishavk1102@gmail.com>
+Date:   Sun Nov 24 00:59:30 2019 +0530
+
+    Bottom Navigation View added
+
+[33mcommit a23397760c9a68d131326c43a9666b216b9a3d48[m
+Author: Rishav <rishavk1102@gmail.com>
+Date:   Sat Nov 23 23:56:55 2019 +0530
+
+    Initial commit :
+    1. Connected app with Firebase
+    2. Register new users
+    3. Login registered users

@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:src="@drawable/ic_search_light"/>
 
-    <EditText
+    <com.hendraanggrian.appcompat.widget.SocialAutoCompleteTextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/search_bar"
@@ -38,6 +38,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/bar"
-        android:id="@+id/recycler_view"/>
+        android:id="@+id/recycler_view_users"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/recycler_view_users"
+        android:id="@+id/recycler_view_tags"/>
 
 </RelativeLayout>
